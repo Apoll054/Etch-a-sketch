@@ -20,9 +20,7 @@ body{
     border: 1px solid red;
 }
 .square{
-    border: 1px solid red;
-    flex: 0 0 6.25%;
-    height: 6.25%;
+    aspect-ratio: 1/1;
 }
 #drawing-area{
     flex:1;
