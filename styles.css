@@ -14,7 +14,7 @@ body{
     width: 100vmin;
     border: 1px solid red;
 }
-#square{
+.square{
     border: 1px solid red;
     flex: 0 0 6.25%;
     height: 6.25%;
