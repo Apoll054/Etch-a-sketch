@@ -17,7 +17,7 @@ resizeBtn.addEventListener("click", () => {
 
 resetBtn.addEventListener('click',()=>{
     const squares= document.querySelectorAll(".square");
-    squares.forEach((square)=>{square.style.backgroundColor="white"})
+    squares.forEach((square)=>{square.style.backgroundColor="#ECE1CD"})
 })
 
 function createGrid(size){
@@ -28,7 +28,7 @@ function createGrid(size){
         square.classList.add("square");
         square.style.flexBasis = `calc(100% / ${size})`; 
         square.addEventListener('mouseenter',(e)=>{
-        e.target.style.backgroundColor="black";
+        e.target.style.backgroundColor="#0E1848";
        })
         container.append(square);
     }
